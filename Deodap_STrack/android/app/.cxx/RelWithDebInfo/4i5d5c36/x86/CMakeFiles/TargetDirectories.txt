@@ -1,0 +1,2 @@
+D:/Work/Deodap STrack Project/Deodap_STrack/android/app/.cxx/RelWithDebInfo/4i5d5c36/x86/CMakeFiles/edit_cache.dir
+D:/Work/Deodap STrack Project/Deodap_STrack/android/app/.cxx/RelWithDebInfo/4i5d5c36/x86/CMakeFiles/rebuild_cache.dir

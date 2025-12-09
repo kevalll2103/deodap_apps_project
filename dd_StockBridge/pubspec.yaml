@@ -1,0 +1,101 @@
+name: deodap_wms_app
+description: "deodap wms app"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Fonts
+  cupertino_icons: ^1.0.8
+  google_fonts: any
+  font_awesome_flutter: ^10.7.0
+  shimmer: ^3.0.0
+  percent_indicator: ^4.2.4
+  flutter_animate: ^4.5.0
+  lottie: ^3.3.0
+
+  # Networking & APIs
+  http: ^1.2.2
+  cached_network_image: ^3.3.1
+  dio: ^5.7.0
+  get: ^4.6.6
+  http_parser: ^4.0.0
+  url_launcher: ^6.2.5
+  share_plus: any
+  connectivity_plus: any
+  flutter_cache_manager: ^3.3.0
+
+  # Storage & Utilities
+  shared_preferences: any
+  path_provider: ^2.1.2
+  package_info_plus: ^8.3.1
+  permission_handler: any
+  flutter_native_splash: any
+  json_serializable: ^6.7.0
+  battery_plus: ^5.0.0
+
+  # Media & Image Handling
+  image_picker: ^1.1.2
+  photo_view: ^0.15.0
+  crop_your_image: ^2.0.0
+  gal: ^2.3.0
+  flutter_image_compress: ^2.4.0
+
+  # Scanner & Timer
+  mobile_scanner: ^7.0.1
+  flutter_countdown_timer: ^4.1.0
+  app_settings: ^5.1.1
+
+  # Audio player (For siren.mp3)
+  audioplayers: ^6.0.0
+
+  # Excel/Exporting
+  excel: ^4.0.6
+  syncfusion_flutter_xlsio: any
+
+  # UI Add-ons
+  animated_background: ^2.0.0
+  loading_indicator: ^3.1.1
+  awesome_dialog: ^3.2.1
+  dotted_border: ^2.0.0+2
+  pinput: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+  build_runner: ^2.4.0
+  build_web_compilers: ^4.0.4
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/lanchure_icon.png"
+
+flutter_native_splash:
+  android: false
+  ios: false
+  image_path: "assets/icons/lanchure_icon.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/lanchure_icon.png
+    - assets/images/
+    - assets/images/dd.png
+    - assets/images/admin.png
+    - assets/images/launcher_icon.png
+    - assets/images/a1.png
+    - assets/images/a2.png
+    - assets/images/a3.png
+    - assets/images/splash.png
+    - assets/images/forgot_password_image.png
+    - assets/mp3/siren.mp3      # added for scanner beep

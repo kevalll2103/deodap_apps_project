@@ -1,0 +1,9 @@
+{
+    "name": "keval/dropshipper_progress_tracker",
+    "description": "Dropshipper progress tracker web app",
+    "type": "project",
+    "license": "proprietary",
+    "require": {
+        "minishlink/web-push": "^9.0"
+    }
+}

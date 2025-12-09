@@ -1,0 +1,14 @@
+[
+  {
+    "id": "751589ff-bd86-4e81-94c5-a4cd774e4c55",
+    "project": "calllogmonitor",
+    "timestamp": "2025-10-15 12:58:26",
+    "errorType": "UNKNOWN",
+    "errorMessage": "[{\"id\":7,\"result\":{\"enabled\":\"true\",\"type\":\"_extensionType\",\"method\":\"ext.flutter.inspector.structuredErrors\"}}]",
+    "summary": "[{\"id\":7,\"result\":{\"enabled\":\"true\",\"type\":\"_extensionType\",\"method\":\"ext.flutter.inspector.struc...",
+    "stackTrace": [],
+    "rawText": "[{\"id\":7,\"result\":{\"enabled\":\"true\",\"type\":\"_extensionType\",\"method\":\"ext.flutter.inspector.structuredErrors\"}}]\n[{\"id\":9,\"result\":{\"enabled\":\"true\",\"type\":\"_extensionType\",\"method\":\"ext.flutter.inspector.structuredErrors\"}}]",
+    "resolved": false,
+    "status": "PENDING"
+  }
+]

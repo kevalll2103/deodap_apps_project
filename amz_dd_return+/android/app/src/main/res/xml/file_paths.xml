@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Internal cache directory -->
+    <cache-path name="internal_cache" path="." />
+
+    <!-- External cache directory (scoped storage compatible) -->
+    <external-cache-path name="external_cache" path="." />
+
+    <!-- External files directory -->
+    <external-files-path name="external_files" path="." />
+
+    <!-- Specific path for flutter_image_compress -->
+    <external-path
+        name="flutter_image_compress"
+        path="Android/data/com.example.amz/cache/flutter_image_compress" />
+
+    <!-- Root external storage (for legacy compatibility) -->
+    <external-path name="legacy_storage" path="." />
+</paths>

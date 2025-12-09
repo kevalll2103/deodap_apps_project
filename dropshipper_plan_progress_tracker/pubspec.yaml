@@ -1,0 +1,45 @@
+name: dropshipper_plan_progress_tracker
+description: A Flutter app to track the progress of dropshipper plans
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI
+  cupertino_icons: ^1.0.8
+
+  # Core Features
+  http: ^1.5.0
+  shared_preferences: ^2.5.3
+  intl: ^0.20.2
+  permission_handler: ^12.0.1
+
+
+  # Device Info
+  device_info_plus: ^11.5.0
+  package_info_plus: ^8.3.1
+
+  # Connectivity & System
+  connectivity_plus: ^6.1.5
+  battery_plus: ^6.2.3
+  url_launcher: ^6.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  min_sdk_android: 21

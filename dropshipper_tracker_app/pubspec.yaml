@@ -1,0 +1,40 @@
+name: dropshipper_tracker_app
+description: "A dropshipping tracker application"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.6
+  shared_preferences: ^2.2.2
+  http: ^1.1.0
+  intl: ^0.20.2
+  url_launcher: ^6.1.14
+  flutter_local_notifications: ^18.0.1
+  workmanager: ^0.9.0+3   # <-- Use this instead of old dev version
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  package_info_plus: ^8.0.0
+  google_fonts: ^6.1.0
+  flutter_timezone: ^4.1.1
+  loading_indicator: ^3.1.1
+  share_plus: ^7.2.1
+  connectivity_plus: ^7.0.0
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/

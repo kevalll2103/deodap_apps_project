@@ -1,0 +1,48 @@
+name: staff_packing_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  permission_handler:
+  google_fonts:
+  get:
+  share_plus:
+  shared_preferences:
+  url_launcher:
+  connectivity_plus:
+  package_info_plus:
+  http:
+  audioplayers:
+  image_picker:
+  mobile_scanner:
+  battery_plus:
+  geolocator: 
+  intl:
+  geocoding: 
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1  
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/app_icon.png"   
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/

@@ -1,0 +1,2 @@
+D:/Work/Deodap amzddReturn+ Project/amz_dd_return+/android/app/.cxx/RelWithDebInfo/731s71ss/armeabi-v7a/CMakeFiles/edit_cache.dir
+D:/Work/Deodap amzddReturn+ Project/amz_dd_return+/android/app/.cxx/RelWithDebInfo/731s71ss/armeabi-v7a/CMakeFiles/rebuild_cache.dir

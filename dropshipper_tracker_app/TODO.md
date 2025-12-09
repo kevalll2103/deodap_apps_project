@@ -1,0 +1,3 @@
+- [ ] Remove import of step_chat_screen.dart from lib/dropshipper_plan_sales.dart
+- [ ] Remove the _openStepChat method from lib/dropshipper_plan_sales.dart
+- [ ] Modify _buildStepCard to remove onTap and chat indicator icon

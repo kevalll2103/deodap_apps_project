@@ -1,0 +1,50 @@
+name: deodap_wms_app
+description: "A new Flutter project."
+publish_to: 'deodap'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  package_info_plus: ^8.0.0
+  shared_preferences: ^2.3.2
+  mobile_scanner: ^6.0.2
+  http: ^1.2.2
+  audioplayers: ^6.1.0
+  battery_plus: ^6.1.0
+  connectivity_plus: ^6.0.5
+  permission_handler: ^11.3.1
+  image_picker: ^0.8.6
+  get: ^4.6.6
+  cached_network_image: ^3.3.0
+  local_auth: ^2.0.0
+  url_launcher: ^6.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/splash_image.png
+    - assets/a1.png
+    - assets/a2.png
+    - assets/a3.png
+    - assets/login.png
+    - assets/audio/alert.mp3
+    - assets/audio/success.mp3
+

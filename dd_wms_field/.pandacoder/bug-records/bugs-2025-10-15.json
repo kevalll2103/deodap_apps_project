@@ -1,0 +1,26 @@
+[
+  {
+    "id": "3ee89d28-2204-4de1-8515-dc3c27466973",
+    "project": "dd_wms_field",
+    "timestamp": "2025-10-15 12:58:26",
+    "errorType": "UNKNOWN",
+    "errorMessage": "[{\"id\":7,\"result\":{\"enabled\":\"true\",\"type\":\"_extensionType\",\"method\":\"ext.flutter.inspector.structuredErrors\"}}]",
+    "summary": "[{\"id\":7,\"result\":{\"enabled\":\"true\",\"type\":\"_extensionType\",\"method\":\"ext.flutter.inspector.struc...",
+    "stackTrace": [],
+    "rawText": "[{\"id\":7,\"result\":{\"enabled\":\"true\",\"type\":\"_extensionType\",\"method\":\"ext.flutter.inspector.structuredErrors\"}}]\n[{\"id\":9,\"result\":{\"enabled\":\"true\",\"type\":\"_extensionType\",\"method\":\"ext.flutter.inspector.structuredErrors\"}}]",
+    "resolved": false,
+    "status": "PENDING"
+  },
+  {
+    "id": "ec49259e-e5cd-431b-b4cf-55884ee743e5",
+    "project": "dd_wms_field",
+    "timestamp": "2025-10-15 14:15:58",
+    "errorType": "UNKNOWN",
+    "errorMessage": "[{\"id\":7,\"result\":{\"enabled\":\"true\",\"type\":\"_extensionType\",\"method\":\"ext.flutter.inspector.structuredErrors\"}}]",
+    "summary": "[{\"id\":7,\"result\":{\"enabled\":\"true\",\"type\":\"_extensionType\",\"method\":\"ext.flutter.inspector.struc...",
+    "stackTrace": [],
+    "rawText": "[{\"id\":7,\"result\":{\"enabled\":\"true\",\"type\":\"_extensionType\",\"method\":\"ext.flutter.inspector.structuredErrors\"}}]\n[{\"id\":9,\"result\":{\"enabled\":\"true\",\"type\":\"_extensionType\",\"method\":\"ext.flutter.inspector.structuredErrors\"}}]",
+    "resolved": false,
+    "status": "PENDING"
+  }
+]
